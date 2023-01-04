@@ -6,12 +6,41 @@
 //
 
 import SwiftUI
+import KakaoSDKCommon
+import KakaoSDKAuth
+import LinkNavigator
 
 @main
 struct BariApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
+    
+    init() {
+        // Kakao SDK 초기화
+        initKakaoAppkey()
+    }
+    
+    var navigator: LinkNavigator {
+        appDelegate.navigator
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            navigator
+                .launch(paths: ["launch"], items: [:])
+                .onOpenURL(perform: { url in
+                    if (AuthApi.isKakaoTalkLoginUrl(url)) {
+                        _ = AuthController.handleOpenUrl(url: url)
+                    }
+                })
+                .ignoresSafeArea()
+            
         }
+           
+        
+    }
+    
+    private func initKakaoAppkey() {
+        let kakaoNativeAppKey: String = Bundle.main.infoDictionary?["KAKAO_NATIVE_APP_KEY"] as! String
+        KakaoSDK.initSDK(appKey: kakaoNativeAppKey)
     }
 }

@@ -7,18 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F06D20229658BD5004EFD5D /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F06D20129658BD5004EFD5D /* KeyChainManager.swift */; };
+		1F06D2052965938C004EFD5D /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 1F06D2042965938C004EFD5D /* KeychainAccess */; };
+		1F06D2072965BFC7004EFD5D /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F06D2062965BFC7004EFD5D /* LoginError.swift */; };
+		1F34837329644C0C00C0C5FA /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34837229644C0C00C0C5FA /* LaunchViewModel.swift */; };
+		1F348376296471BF00C0C5FA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F348375296471BF00C0C5FA /* ColorExtension.swift */; };
+		1F4C3A582962CF9300282445 /* TokenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A572962CF9300282445 /* TokenHelper.swift */; };
+		1F4C3A5A2962D26A00282445 /* KakaoLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A592962D26A00282445 /* KakaoLoginHelper.swift */; };
+		1F4C3A5C2962D28F00282445 /* AppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A5B2962D28F00282445 /* AppleLoginHelper.swift */; };
+		1F4C3A6429632E1F00282445 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A6329632E1F00282445 /* LoginViewModel.swift */; };
+		1F4C3A662963349000282445 /* OptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A652963349000282445 /* OptionViewModel.swift */; };
+		1F4C3A6B29643BCC00282445 /* LinkNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = 1F4C3A6A29643BCC00282445 /* LinkNavigator */; };
+		1F4C3A6D29643C8200282445 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A6C29643C8200282445 /* AppDependency.swift */; };
+		1F4C3A6F29643CA900282445 /* AppRouterGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A6E29643CA900282445 /* AppRouterGroup.swift */; };
+		1F4C3A7129643CC400282445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A7029643CC400282445 /* AppDelegate.swift */; };
+		1F4C3A7329643D4D00282445 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C3A7229643D4D00282445 /* LaunchView.swift */; };
+		1F5C1FFB2952F8F4001C2504 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C1FFA2952F8F4001C2504 /* MapViewModel.swift */; };
+		1F5C1FFF2953EC7F001C2504 /* CircleUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C1FFE2953EC7F001C2504 /* CircleUIImage.swift */; };
+		1F5C2001295408E3001C2504 /* WindowSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2000295408E3001C2504 /* WindowSize.swift */; };
+		1F5C2003295567F4001C2504 /* ModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2002295567F4001C2504 /* ModeView.swift */; };
+		1FB1FAAB295E9EE20036F8DF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1FAAA295E9EE20036F8DF /* MainViewModel.swift */; };
+		1FB1FAB1295EAE0C0036F8DF /* PlaceMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1FAB0295EAE0C0036F8DF /* PlaceMark.swift */; };
+		1FB1FAD02960592F0036F8DF /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB1FACF2960592F0036F8DF /* KakaoSDK */; };
+		1FB1FAD22960592F0036F8DF /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB1FAD12960592F0036F8DF /* KakaoSDKAuth */; };
+		1FB1FAD42960592F0036F8DF /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB1FAD32960592F0036F8DF /* KakaoSDKCommon */; };
+		1FB1FAD62960592F0036F8DF /* KakaoSDKCommonCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB1FAD52960592F0036F8DF /* KakaoSDKCommonCore */; };
+		1FB1FAD82960592F0036F8DF /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB1FAD72960592F0036F8DF /* KakaoSDKUser */; };
 		1FE64AAB29516F3D00ED7D12 /* BariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AAA29516F3D00ED7D12 /* BariApp.swift */; };
-		1FE64AAD29516F3D00ED7D12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AAC29516F3D00ED7D12 /* ContentView.swift */; };
 		1FE64AAF29516F3E00ED7D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE64AAE29516F3E00ED7D12 /* Assets.xcassets */; };
 		1FE64AB229516F3E00ED7D12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE64AB129516F3E00ED7D12 /* Preview Assets.xcassets */; };
+		1FE64ABB2951881700ED7D12 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64ABA2951881700ED7D12 /* LoginView.swift */; };
+		1FE64ABD2951889600ED7D12 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64ABC2951889600ED7D12 /* MainView.swift */; };
+		1FE64AC0295193AB00ED7D12 /* ConvexGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64ABF295193AB00ED7D12 /* ConvexGlassView.swift */; };
+		1FE64AC22951DE8700ED7D12 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC12951DE8700ED7D12 /* FriendsView.swift */; };
+		1FE64AC42951EB0B00ED7D12 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC32951EB0B00ED7D12 /* MessageView.swift */; };
+		1FE64AC62951EE1800ED7D12 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC52951EE1800ED7D12 /* ProfileView.swift */; };
+		1FE64AC82951F85C00ED7D12 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC72951F85C00ED7D12 /* OptionView.swift */; };
+		1FE64ACA2951FD7F00ED7D12 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC92951FD7F00ED7D12 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F06D20129658BD5004EFD5D /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		1F06D2062965BFC7004EFD5D /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		1F34837229644C0C00C0C5FA /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		1F34837429645E9300C0C5FA /* Bari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bari.entitlements; sourceTree = "<group>"; };
+		1F348375296471BF00C0C5FA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		1F4C3A572962CF9300282445 /* TokenHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHelper.swift; sourceTree = "<group>"; };
+		1F4C3A592962D26A00282445 /* KakaoLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginHelper.swift; sourceTree = "<group>"; };
+		1F4C3A5B2962D28F00282445 /* AppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginHelper.swift; sourceTree = "<group>"; };
+		1F4C3A6329632E1F00282445 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1F4C3A652963349000282445 /* OptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewModel.swift; sourceTree = "<group>"; };
+		1F4C3A6C29643C8200282445 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		1F4C3A6E29643CA900282445 /* AppRouterGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterGroup.swift; sourceTree = "<group>"; };
+		1F4C3A7029643CC400282445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F4C3A7229643D4D00282445 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		1F5C1FFA2952F8F4001C2504 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		1F5C1FFE2953EC7F001C2504 /* CircleUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleUIImage.swift; sourceTree = "<group>"; };
+		1F5C2000295408E3001C2504 /* WindowSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSize.swift; sourceTree = "<group>"; };
+		1F5C2002295567F4001C2504 /* ModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeView.swift; sourceTree = "<group>"; };
+		1FB1FAAA295E9EE20036F8DF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1FB1FAB0295EAE0C0036F8DF /* PlaceMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMark.swift; sourceTree = "<group>"; };
+		1FB1FAC42960041B0036F8DF /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		1FE64AA729516F3D00ED7D12 /* Bari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE64AAA29516F3D00ED7D12 /* BariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BariApp.swift; sourceTree = "<group>"; };
-		1FE64AAC29516F3D00ED7D12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FE64AAE29516F3E00ED7D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE64AB129516F3E00ED7D12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FE64ABA2951881700ED7D12 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1FE64ABC2951889600ED7D12 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1FE64ABE29518ED400ED7D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1FE64ABF295193AB00ED7D12 /* ConvexGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvexGlassView.swift; sourceTree = "<group>"; };
+		1FE64AC12951DE8700ED7D12 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		1FE64AC32951EB0B00ED7D12 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		1FE64AC52951EE1800ED7D12 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1FE64AC72951F85C00ED7D12 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		1FE64AC92951FD7F00ED7D12 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +88,138 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB1FAD02960592F0036F8DF /* KakaoSDK in Frameworks */,
+				1FB1FAD62960592F0036F8DF /* KakaoSDKCommonCore in Frameworks */,
+				1F06D2052965938C004EFD5D /* KeychainAccess in Frameworks */,
+				1F4C3A6B29643BCC00282445 /* LinkNavigator in Frameworks */,
+				1FB1FAD42960592F0036F8DF /* KakaoSDKCommon in Frameworks */,
+				1FB1FAD82960592F0036F8DF /* KakaoSDKUser in Frameworks */,
+				1FB1FAD22960592F0036F8DF /* KakaoSDKAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4C3A562962CF4100282445 /* LoginHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C3A572962CF9300282445 /* TokenHelper.swift */,
+				1F4C3A592962D26A00282445 /* KakaoLoginHelper.swift */,
+				1F4C3A5B2962D28F00282445 /* AppleLoginHelper.swift */,
+				1F06D20129658BD5004EFD5D /* KeyChainManager.swift */,
+				1F06D2062965BFC7004EFD5D /* LoginError.swift */,
+			);
+			path = LoginHelper;
+			sourceTree = "<group>";
+		};
+		1F4C3A5D2962F31200282445 /* LinkNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C3A6C29643C8200282445 /* AppDependency.swift */,
+				1F4C3A6E29643CA900282445 /* AppRouterGroup.swift */,
+				1F4C3A7029643CC400282445 /* AppDelegate.swift */,
+			);
+			path = LinkNavigator;
+			sourceTree = "<group>";
+		};
+		1F5C1FF92952F753001C2504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C3A7229643D4D00282445 /* LaunchView.swift */,
+				1F34837229644C0C00C0C5FA /* LaunchViewModel.swift */,
+				1FB1FAA9295E971E0036F8DF /* Login */,
+				1FB1FAA2295E96B80036F8DF /* Main */,
+				1FB1FAA3295E96C10036F8DF /* Map */,
+				1FB1FAA8295E96F80036F8DF /* Mode */,
+				1FB1FAA7295E96EC0036F8DF /* Option */,
+				1FB1FAA5295E96D30036F8DF /* Message */,
+				1FB1FAA4295E96C80036F8DF /* Friends */,
+				1FB1FAA6295E96DD0036F8DF /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F5C1FFD2953EC49001C2504 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64ABF295193AB00ED7D12 /* ConvexGlassView.swift */,
+				1F5C1FFE2953EC7F001C2504 /* CircleUIImage.swift */,
+				1F5C2000295408E3001C2504 /* WindowSize.swift */,
+				1FB1FAB0295EAE0C0036F8DF /* PlaceMark.swift */,
+				1F348375296471BF00C0C5FA /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1FB1FAA2295E96B80036F8DF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64ABC2951889600ED7D12 /* MainView.swift */,
+				1FB1FAAA295E9EE20036F8DF /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1FB1FAA3295E96C10036F8DF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64AC92951FD7F00ED7D12 /* MapView.swift */,
+				1F5C1FFA2952F8F4001C2504 /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		1FB1FAA4295E96C80036F8DF /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64AC12951DE8700ED7D12 /* FriendsView.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		1FB1FAA5295E96D30036F8DF /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64AC32951EB0B00ED7D12 /* MessageView.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1FB1FAA6295E96DD0036F8DF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64AC52951EE1800ED7D12 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1FB1FAA7295E96EC0036F8DF /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64AC72951F85C00ED7D12 /* OptionView.swift */,
+				1F4C3A652963349000282445 /* OptionViewModel.swift */,
+			);
+			path = Option;
+			sourceTree = "<group>";
+		};
+		1FB1FAA8295E96F80036F8DF /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2002295567F4001C2504 /* ModeView.swift */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		1FB1FAA9295E971E0036F8DF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1FE64ABA2951881700ED7D12 /* LoginView.swift */,
+				1F4C3A6329632E1F00282445 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		1FE64A9E29516F3C00ED7D12 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +239,16 @@
 		1FE64AA929516F3D00ED7D12 /* Bari */ = {
 			isa = PBXGroup;
 			children = (
+				1F34837429645E9300C0C5FA /* Bari.entitlements */,
+				1FE64ABE29518ED400ED7D12 /* Info.plist */,
 				1FE64AAA29516F3D00ED7D12 /* BariApp.swift */,
-				1FE64AAC29516F3D00ED7D12 /* ContentView.swift */,
+				1F4C3A5D2962F31200282445 /* LinkNavigator */,
+				1F5C1FF92952F753001C2504 /* View */,
+				1F5C1FFD2953EC49001C2504 /* Extension */,
+				1F4C3A562962CF4100282445 /* LoginHelper */,
 				1FE64AAE29516F3E00ED7D12 /* Assets.xcassets */,
 				1FE64AB029516F3E00ED7D12 /* Preview Content */,
+				1FB1FAC42960041B0036F8DF /* Config.xcconfig */,
 			);
 			path = Bari;
 			sourceTree = "<group>";
@@ -83,6 +277,15 @@
 			dependencies = (
 			);
 			name = Bari;
+			packageProductDependencies = (
+				1FB1FACF2960592F0036F8DF /* KakaoSDK */,
+				1FB1FAD12960592F0036F8DF /* KakaoSDKAuth */,
+				1FB1FAD32960592F0036F8DF /* KakaoSDKCommon */,
+				1FB1FAD52960592F0036F8DF /* KakaoSDKCommonCore */,
+				1FB1FAD72960592F0036F8DF /* KakaoSDKUser */,
+				1F4C3A6A29643BCC00282445 /* LinkNavigator */,
+				1F06D2042965938C004EFD5D /* KeychainAccess */,
+			);
 			productName = Bari;
 			productReference = 1FE64AA729516F3D00ED7D12 /* Bari.app */;
 			productType = "com.apple.product-type.application";
@@ -108,9 +311,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				ko,
 			);
 			mainGroup = 1FE64A9E29516F3C00ED7D12;
+			packageReferences = (
+				1FB1FACE2960592F0036F8DF /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				1F4C3A6929643BCC00282445 /* XCRemoteSwiftPackageReference "LinkNavigator" */,
+				1F06D2032965938C004EFD5D /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 1FE64AA829516F3D00ED7D12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +345,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FE64AAD29516F3D00ED7D12 /* ContentView.swift in Sources */,
+				1FE64ABB2951881700ED7D12 /* LoginView.swift in Sources */,
+				1F4C3A7329643D4D00282445 /* LaunchView.swift in Sources */,
+				1F5C2001295408E3001C2504 /* WindowSize.swift in Sources */,
+				1F34837329644C0C00C0C5FA /* LaunchViewModel.swift in Sources */,
+				1FB1FAB1295EAE0C0036F8DF /* PlaceMark.swift in Sources */,
+				1FE64AC62951EE1800ED7D12 /* ProfileView.swift in Sources */,
+				1F06D2072965BFC7004EFD5D /* LoginError.swift in Sources */,
+				1FE64AC22951DE8700ED7D12 /* FriendsView.swift in Sources */,
+				1F4C3A5A2962D26A00282445 /* KakaoLoginHelper.swift in Sources */,
+				1F4C3A6D29643C8200282445 /* AppDependency.swift in Sources */,
+				1FE64AC0295193AB00ED7D12 /* ConvexGlassView.swift in Sources */,
+				1F4C3A6429632E1F00282445 /* LoginViewModel.swift in Sources */,
+				1FB1FAAB295E9EE20036F8DF /* MainViewModel.swift in Sources */,
+				1F5C2003295567F4001C2504 /* ModeView.swift in Sources */,
+				1F06D20229658BD5004EFD5D /* KeyChainManager.swift in Sources */,
+				1FE64ABD2951889600ED7D12 /* MainView.swift in Sources */,
+				1F5C1FFF2953EC7F001C2504 /* CircleUIImage.swift in Sources */,
 				1FE64AAB29516F3D00ED7D12 /* BariApp.swift in Sources */,
+				1F4C3A582962CF9300282445 /* TokenHelper.swift in Sources */,
+				1FE64ACA2951FD7F00ED7D12 /* MapView.swift in Sources */,
+				1FE64AC82951F85C00ED7D12 /* OptionView.swift in Sources */,
+				1F4C3A662963349000282445 /* OptionViewModel.swift in Sources */,
+				1F4C3A5C2962D28F00282445 /* AppleLoginHelper.swift in Sources */,
+				1FE64AC42951EB0B00ED7D12 /* MessageView.swift in Sources */,
+				1F4C3A6F29643CA900282445 /* AppRouterGroup.swift in Sources */,
+				1F5C1FFB2952F8F4001C2504 /* MapViewModel.swift in Sources */,
+				1F4C3A7129643CC400282445 /* AppDelegate.swift in Sources */,
+				1F348376296471BF00C0C5FA /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +381,7 @@
 /* Begin XCBuildConfiguration section */
 		1FE64AB329516F3E00ED7D12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB1FAC42960041B0036F8DF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -195,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -207,6 +442,7 @@
 		};
 		1FE64AB429516F3E00ED7D12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB1FAC42960041B0036F8DF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -249,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,20 +497,26 @@
 		};
 		1FE64AB629516F3E00ED7D12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB1FAC42960041B0036F8DF /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bari/Bari.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bari/Preview Content\"";
 				DEVELOPMENT_TEAM = G3RC7ALRKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bari/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location to see user's location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,20 +532,26 @@
 		};
 		1FE64AB729516F3E00ED7D12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB1FAC42960041B0036F8DF /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bari/Bari.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bari/Preview Content\"";
 				DEVELOPMENT_TEAM = G3RC7ALRKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bari/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location to see user's location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +587,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F06D2032965938C004EFD5D /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1F4C3A6929643BCC00282445 /* XCRemoteSwiftPackageReference "LinkNavigator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/interactord/LinkNavigator.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1FB1FACE2960592F0036F8DF /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F06D2042965938C004EFD5D /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F06D2032965938C004EFD5D /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		1F4C3A6A29643BCC00282445 /* LinkNavigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F4C3A6929643BCC00282445 /* XCRemoteSwiftPackageReference "LinkNavigator" */;
+			productName = LinkNavigator;
+		};
+		1FB1FACF2960592F0036F8DF /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB1FACE2960592F0036F8DF /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		1FB1FAD12960592F0036F8DF /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB1FACE2960592F0036F8DF /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		1FB1FAD32960592F0036F8DF /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB1FACE2960592F0036F8DF /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		1FB1FAD52960592F0036F8DF /* KakaoSDKCommonCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB1FACE2960592F0036F8DF /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommonCore;
+		};
+		1FB1FAD72960592F0036F8DF /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB1FACE2960592F0036F8DF /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1FE64A9F29516F3C00ED7D12 /* Project object */;
 }
