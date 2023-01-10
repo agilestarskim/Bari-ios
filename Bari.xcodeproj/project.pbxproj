@@ -38,7 +38,7 @@
 		1FE64AB229516F3E00ED7D12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE64AB129516F3E00ED7D12 /* Preview Assets.xcassets */; };
 		1FE64ABB2951881700ED7D12 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64ABA2951881700ED7D12 /* LoginView.swift */; };
 		1FE64ABD2951889600ED7D12 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64ABC2951889600ED7D12 /* MainView.swift */; };
-		1FE64AC0295193AB00ED7D12 /* ConvexGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64ABF295193AB00ED7D12 /* ConvexGlassView.swift */; };
+		1FE64AC0295193AB00ED7D12 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64ABF295193AB00ED7D12 /* ClassView.swift */; };
 		1FE64AC22951DE8700ED7D12 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC12951DE8700ED7D12 /* FriendsView.swift */; };
 		1FE64AC42951EB0B00ED7D12 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC32951EB0B00ED7D12 /* MessageView.swift */; };
 		1FE64AC62951EE1800ED7D12 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE64AC52951EE1800ED7D12 /* ProfileView.swift */; };
@@ -75,7 +75,7 @@
 		1FE64ABA2951881700ED7D12 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1FE64ABC2951889600ED7D12 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1FE64ABE29518ED400ED7D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1FE64ABF295193AB00ED7D12 /* ConvexGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvexGlassView.swift; sourceTree = "<group>"; };
+		1FE64ABF295193AB00ED7D12 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		1FE64AC12951DE8700ED7D12 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		1FE64AC32951EB0B00ED7D12 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		1FE64AC52951EE1800ED7D12 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		1F5C1FFD2953EC49001C2504 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1FE64ABF295193AB00ED7D12 /* ConvexGlassView.swift */,
+				1FE64ABF295193AB00ED7D12 /* ClassView.swift */,
 				1F5C1FFE2953EC7F001C2504 /* CircleUIImage.swift */,
 				1F5C2000295408E3001C2504 /* WindowSize.swift */,
 				1FB1FAB0295EAE0C0036F8DF /* PlaceMark.swift */,
@@ -355,7 +355,7 @@
 				1FE64AC22951DE8700ED7D12 /* FriendsView.swift in Sources */,
 				1F4C3A5A2962D26A00282445 /* KakaoLoginHelper.swift in Sources */,
 				1F4C3A6D29643C8200282445 /* AppDependency.swift in Sources */,
-				1FE64AC0295193AB00ED7D12 /* ConvexGlassView.swift in Sources */,
+				1FE64AC0295193AB00ED7D12 /* ClassView.swift in Sources */,
 				1F4C3A6429632E1F00282445 /* LoginViewModel.swift in Sources */,
 				1FB1FAAB295E9EE20036F8DF /* MainViewModel.swift in Sources */,
 				1F5C2003295567F4001C2504 /* ModeView.swift in Sources */,

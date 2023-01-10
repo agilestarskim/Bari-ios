@@ -18,6 +18,7 @@ final class LoginViewModel: ObservableObject {
         KakaoLoginHelper.shared.login { result in
             switch result {
             case .success:
+                //TODO: 서버에서 데이터 가져옴
                 self.navigator.next(paths: ["main"], items: [:], isAnimated: true)
             case .failure(let failure):
                 self.navigator.alert(target: .default, model: Alert(title:  failure == .otherPlatformRegistered ? "애플로 로그인 해주세요" : "로그인 실패",
@@ -33,6 +34,7 @@ final class LoginViewModel: ObservableObject {
         AppleLoginHelper.shared.login(result: result) { result in
             switch result {
             case .success:
+                //TODO: 서버에서 데이터 가져옴
                 self.navigator.next(paths: ["main"], items: [:], isAnimated: true)
             case .failure(let failure):
                 self.navigator.alert(target: .default, model: Alert(title: failure == .otherPlatformRegistered ? "카카오로 로그인 해주세요" : "로그인 실패",
@@ -43,7 +45,9 @@ final class LoginViewModel: ObservableObject {
                 
             }
         }
+    }
     
+    private func fetchUserData() {
         
     }
 }

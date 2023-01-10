@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ConvexGlassView: ViewModifier {
+struct ClassView: ViewModifier {
     func body(content: Content) -> some View {
         if #available(iOS 15.0, *) {
             content

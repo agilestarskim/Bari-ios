@@ -42,7 +42,7 @@ struct MainView: View {
                         .scaledToFit()
                         .foregroundColor(.primary)
                         .frame(width: 40, height: 40)
-                        .modifier(ConvexGlassView())
+                        .modifier(ClassView())
                 }
    
                 Button{
@@ -53,7 +53,7 @@ struct MainView: View {
                         .scaledToFit()
                         .foregroundColor(.primary)
                         .frame(width: 40, height: 40)
-                        .modifier(ConvexGlassView())
+                        .modifier(ClassView())
                 }
                 
                 
@@ -65,7 +65,7 @@ struct MainView: View {
                         .scaledToFit()
                         .foregroundColor(.primary)
                         .frame(width: 40, height: 40)
-                        .modifier(ConvexGlassView())
+                        .modifier(ClassView())
                 }
                 
             }
